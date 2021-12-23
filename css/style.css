@@ -1,6 +1,6 @@
 /* Import fonts from fonts.css file */
 @import url(./font.css);
-@import url(./_variables.css);
+@import url(./variables.css);
 
 .header_area .main-menu .navbar .container-fluid {
     padding: 0.1em .1em;
