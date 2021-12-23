@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- bootstrap css file-->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fontawesome icons -->
+    <link href="./css/all.min.css" rel="stylesheet">
+    <!-- custom css file -->
+    <link href="./css/style.css" rel="stylesheet">
+   
+</head>
+<body>
+
+    <!----------------- Start header area --------------------->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" style="color: #94f6d1;"><i class="fa fa-home" aria-hidden="true"></i> Home</a> <!--fa-2x-->
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./project.html"><i class="fa fa-book" aria-hidden="true"></i> Projects</a>
+                      </li>
+                      <!-- <li><a class="navbar-brand" ><img src="../img/portfolio.jpg" alt="logo" style="width:90px; height:50px"></a></li> -->
+                    <!------------------  End contact ----------------->
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" > <i class="fa fa-address-book" aria-hidden="true"></i> Contact </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://github.com/gv68682" target="_blank">GitHub</a></li>
+                                <li><a class="dropdown-item" href="https://linkedin.com/in/padma-v-3a248a17b" target="_blank">LinkedIn</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="mailto:gv68682@gmail.com" target="_blank">Email</a></li>
+                            </ul>
+                      </li>
+                        <!------------------  End contact ----------------->
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <!----------------- End header area --------------------->
+
+    <!------------------ Start Main area ---------------->
+     <section class="site-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 site-title">
+                    <h4 class="title-text"> Hey</h4>
+                    <h2 class="title-text"> I am Padma</h2>
+                    <h4 class="title-text"> Full stack developer</h4>
+                    <img src="./img/Capture.JPG" alt="banner-img" class="img-fluid" style="width:50%";>
+                </div>
+                <div class="col-lg-4 col-md-12 baner-image">
+                    <iframe width="720" height="405" src="https://www.youtube-nocookie.com/embed/z2kIXaiQn8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="site-banner2">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <h3 class="title-text1" style="color: white;"> Let me introduce my self</h3>
+                    <div class=""> <!--paragraph py-4 w-75-->
+                       <p class="para"> Involved in discussions with product owners and business analysts to understand the functionality and to verify the acceptance criteria. 
+                        Has good experience working on AWS cloud based applications. Experience in Java, Maven, Serenity Screenplay, 
+                        Gitlab, Jira, Jenkins, Oracle, PostgreSQL, HTML, and Java Script.<br> Currently taking MERN full stack development course at MIT xPRO. Excited to become a full stack developer.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!---Game Section---->
+    <section class="site-banner-tic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 site-title">
+                    <iframe class="tic" src="../TicTac/tictactoe.html" style="width: 400px; height: 500px"></iframe>
+                </div>
+                <div class="col-lg-4 col-md-12 site-title">
+                    <h2 style="color: black;">click</h2>
+                    <iframe  class="ball" src="../balls/balls.html" style="width: 740px; height: 330px" >
+                     
+                    </iframe>
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <footer class="py-5">
+        <ul class="nav justify-content-center border-top pb-4">
+            <li><a class="nav-link" href="./index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>  </li>
+            <li><a class="nav-link" href="./project.html" style="padding-left: 150px;"><i class="fa fa-book" aria-hidden="true"></i> Projects</a></li>
+            <li><a class="nav-link" href="https://mailto:gv68682@gmail.com" target="_blank" style="padding-left: 150px;"><i class="fas fa-envelope-open-text"></i> Email</a></li>
+        </ul>
+            <!-- <a class="navbar-brand" href="#">Fixed bottom</a> -->
+    </footer>
+     <!------------------ End Main area ---------------->
+    
+    <!-- Jquery js file -->
+    <script src="./js/jquery.3.6.0.js"></script>
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+   
+    </body>
+</html>
