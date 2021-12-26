@@ -15,7 +15,8 @@
     color:white;
 } 
 .header_area .main-menu .container-fluid .nav-item .nav-link:hover{
-    color:  #4100f5;
+    color: #4100f5;
+    transition: color 0.8s;
 }
 
 .header_area .main-menu .container-fluid {
@@ -57,82 +58,12 @@ p {
     padding-top: 40px;
     padding-bottom: 0px;
 }
+p:hover {
+    color:blue;
+    transition: color 0.8s;
+}
 .list-unstyled{
     color: white;
 }
 
-/* For Projects page */
-.grid {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 120px 120px 120px 120px;
-    grid-template-areas: 'g-col-6 g-col-4 g-col-5 g-col-6';
-} 
-.g-col-6  {
-     grid-area:  1 / 5 / 2 / span 4;
-}
-.g-col-4 {
-    grid-area:  4 / 3 / 8 / span 2;
-}
-.g-col-5 {
-    grid-area:  4 / 5 / 8 / span 2;
-}
-.g-col-3 {
-    grid-area:  10 / 4 / 11 / span 2;
-}
-.btn btn-outline-success{
-    color: tomato;
-}
-
-.wrapper {
-    
-    margin-left:  70px; /* 1 */
-    margin-right: 70px; /* 1 */
-    /* max-width: 1420px;  */
-    max-width: 100%;
-    max-height: 100%;
-    padding-right: 10px; /* 3 */
-    padding-left:  10px; /* 3 */
-    display: grid;
-
-    background-color:  black;
-    border-radius: 0%;
-    grid-gap: 20px;
-    grid-template-columns: 120px 120px 120px 120px;
-    grid-template-areas: 'bus para img link1';
-    color:#94f6d1;
-}
-.heading {
-     grid-area:  1 / 4 / 2 / 6;
-     justify-content: center;
-     text-align-last: center; 
-     padding-top: 50px;    
-}
-.para {
-    grid-area:  3 / 2 / 7 / 4; 
-}
-.para:hover {
-    color: #4100f5;
-    /* color: var(--gradient-color); */   
-}
-.img {
-    grid-area:  3 / 4 / 8 / 8;
-}
-.link1 {
-    grid-area:  9 / 3 / 11 / 6;
-    padding-bottom: 50px;
-    color: white;
-    font-size: x-large; 
-    text-align-last: center; 
-}
-.link1:hover{
-    color: white;
-    /* color: var(--gradient-color); */   
-}
-/* Project page css */
-
-.section-1 {
-    background-color: #94f6d1;
-    color: black;
-}
 

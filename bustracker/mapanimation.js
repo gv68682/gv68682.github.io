@@ -58,7 +58,7 @@ async function getBusLocations(){
         let routeNum = Number(document.getElementById('route-input').value)
         console.log(routeNum)
     // let routeNum = Number(document.getElementById('route-input').value)
-    if(counter < 2){
+    if(counter < 3){
         const url = 'https://api-v3.mbta.com/vehicles?api_key=ca34f7b7ac8a445287cab52fb451030a&filter[route]='+routeNum+'&include=trip';	
         console.log(url)
         const response = await fetch(url);
@@ -84,7 +84,7 @@ async function moveMarker(bus, marker){
             .setLngLat([bus.attributes.longitude, bus.attributes.latitude])
             .setHTML(`<h4>Bus Number: ${bus.attributes.label}<br> ${direction}<br>${seats}<h4>`)
             .addTo(map)
-        setTimeout(() => popup.remove(), 10000)
+        setTimeout(() => popup.remove(), 15000)
     }
 }
 

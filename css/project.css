@@ -1,0 +1,51 @@
+/* For Projects page */
+
+.container {
+    background-color: black;
+
+}
+
+.img {
+    position: relative;
+    padding-left: 100px;
+}
+
+.row-cols-1 .col{
+    color:#94f6d1;
+    position: relative;
+    text-align: center;
+    padding-bottom: 47px;
+
+}
+.para {
+    color:#94f6d1;
+    /* color: var(--gradient-color); */   
+}
+.para:hover {
+    color: #4100f5;
+    transition: color 0.8s;
+    /* color: var(--gradient-color); */   
+}
+.link1 a {
+    color:white;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 100px;
+}
+
+
+.link1 a:hover{
+    color: #4100f5;
+    /* color: var(--gradient-color); */ 
+    transition: color 0.8s;  
+} 
+
+
+/* Project page css */
+
+.section-1 {
+    background-color: #94f6d1;
+    color: black;
+}
